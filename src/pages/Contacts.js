@@ -9,6 +9,8 @@ const Contacts = () => {
 						<h2 className="title-2">Location</h2>
 						<p>Atyrau, Kazakhstan</p>
 					</li>
+					<iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d188618.51311104256!2d-71.236572!3d42.381647!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1576756626784!5m2!1sen!2sbd" height="500px"  width="100%"></iframe>
 					<li className="content-list__item">
 						<h2 className="title-2">Telegram / WhatsApp</h2>
 						<p>
@@ -24,6 +26,7 @@ const Contacts = () => {
 						</p>
 					</li>
 				</ul>
+				
 			</div>
 		</main>
 	);

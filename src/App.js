@@ -10,6 +10,7 @@ import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
 
 import ScrollToTop from "./utils/scrollToTop"
+import Goal from "./pages/Goal";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/goal" element={<Goal/>} />
 					<Route path="/projects" element={<Projects />} />
 					<Route path="/project/:id" element={<Project />} />
 					<Route path="/contacts" element={<Contacts />} />

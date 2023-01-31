@@ -1,19 +1,13 @@
 import Content from '../components/Content/Content';
 import ContentTwo from '../components/ContentTwo/ContentTwo';
 import Header from './../components/header/Header'
-import Contacts from './Contacts';
-import Projects from './Projects';
 
-const Home = () => {
+const Goal = () => {
     return (
 		<>
 			<Header 
-			title="Hi, my name is " 
-			name="Temirlan"
-			subtitle="a frontend developer"
-			text="with passion for learning and creating."
-			button="Download"/>
-			
+			title="Our main Goal"
+			button="Goal" />
 			<ContentTwo
 			title="First"
 			body="I have a personal website that serves as an online portfolio. It showcases my skills and achievements, and it helps me connect with potential employers and clients. I created this website to promote my brand and to have a central location where people can learn more about me and my work."
@@ -32,11 +26,8 @@ const Home = () => {
 					subtitle=" having a website is essential for personal and business purposes. A website is a platform that allows individuals andorganizations to present themselves and their services to the world. "
 					text=" I have several websites that serve different purposes and I would like to share my experiences with them."
 					button="More"/>
-			<Projects/>
-			<Contacts/>
-			
 		</>
 	);
 }
 
-export default Home;
+export default Goal;
