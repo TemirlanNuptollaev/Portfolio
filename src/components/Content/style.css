@@ -1,5 +1,5 @@
 /* Header */
-.header {
+.content {
 	padding: 40px 0;
 	min-height: 695px;
 
@@ -17,34 +17,34 @@
 	text-align: center;
 }
 
-.header__wrapper {
+.content__wrapper {
 	padding: 0 15px;
 	max-width: 660px;
 }
 
-.header__title {
+.content__title {
 	margin-bottom: 20px;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.4;
 }
 
-.header__title strong {
+.content__title strong {
 	font-size: 60px;
 	font-weight: 700;
 }
 
-.header__title em {
+.content__title em {
 	font-style: normal;
 	color: var(--accent);
 }
 
-.header__text {
+.content__text {
 	margin-bottom: 40px;
 	font-size: 18px;
 	line-height: 1.333;
 }
 
-.header__text p + p {
+.content__text p + p {
 	margin-top: 0.5em;
 }
